@@ -1,5 +1,6 @@
 ﻿using BusinessObject.ResponseModel.FoodResponse;
 using DataAccess.Repository.FoodRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,7 +10,8 @@ using System.Threading.Tasks;
 
 namespace MamCo.Controllers.FoodController
 {
-    [Route("api/Food")]
+   
+    [Route("api/[controller]")]
     [ApiController]
 
     public class FoodController : ControllerBase
@@ -19,6 +21,7 @@ namespace MamCo.Controllers.FoodController
         {
             this.foodRepository = foodRepository;
         }
+       [Authorize(Roles = "Admin")]
        [HttpGet]
        [Route("GetFoods")]
         public async Task<ActionResult> GetFoods()
@@ -34,6 +37,7 @@ namespace MamCo.Controllers.FoodController
             }
         }
 
+        [Authorize]
         [HttpGet]
         [Route("SearchFoods")]
         public async Task<ActionResult> SearchFood(string text)

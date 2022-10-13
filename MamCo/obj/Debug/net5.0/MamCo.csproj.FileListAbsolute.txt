@@ -122,7 +122,6 @@ C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamC
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -153,3 +152,6 @@ C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamC
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\obj\Debug\net5.0\MamCo.RazorTargetAssemblyInfo.cache
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\obj\Debug\net5.0\MamCo.csproj.CopyComplete
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\obj\Debug\net5.0\MamCo.genruntimeconfig.cache
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\MamCo\bin\Debug\net5.0\Newtonsoft.Json.dll

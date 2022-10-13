@@ -42,3 +42,4 @@ C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\Busi
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
 C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache

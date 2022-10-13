@@ -1,5 +1,7 @@
-using BusinessObject.DataAccess;
+﻿using BusinessObject.DataAccess;
 using DataAccess.Repository.FoodRepository;
+using MamCo.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,10 +11,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace MamCo
@@ -33,9 +37,51 @@ namespace MamCo
             options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
             services.AddScoped<IFoodRepository, FoodRepository>();
             services.AddControllers();
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+
+            var secretKey = Configuration["AppSettings:SecretKey"];
+            var secretKeyBytes = Encoding.UTF8.GetBytes(secretKey);
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        //tự cấp token
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+
+                        //ký vào token
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(secretKeyBytes),
+
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MamCo", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme { 
+                    In=ParameterLocation.Header,
+                    Description="Please insert token",
+                    Type=SecuritySchemeType.Http,
+                    BearerFormat="JWT",
+                    Scheme="bearer"
+                }
+                );
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference=new OpenApiReference
+                            {
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            }
+                        }, new string []{ }
+                    }
+                });
             });
         }
 
@@ -52,6 +98,8 @@ namespace MamCo
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
