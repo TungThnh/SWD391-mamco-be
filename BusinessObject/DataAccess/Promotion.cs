@@ -16,7 +16,6 @@ namespace BusinessObject.DataAccess
         public DateTime? EffectiveDate { get; set; }
         public DateTime? EndDate { get; set; }
         public byte? Status { get; set; }
-        public int? Percent { get; set; }
 
         public virtual ICollection<Customer> Customers { get; set; }
     }

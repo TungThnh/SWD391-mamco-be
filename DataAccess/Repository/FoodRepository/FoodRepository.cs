@@ -11,9 +11,9 @@ namespace DataAccess.Repository.FoodRepository
 {
     public class FoodRepository : IFoodRepository
     {
-        private readonly mamcungappContext dbContext;
+        private readonly foodappContext dbContext;
 
-        public FoodRepository(mamcungappContext dbContext)
+        public FoodRepository(foodappContext dbContext)
         {
             this.dbContext = dbContext;
         }

@@ -28,3 +28,17 @@ D:\MamCo\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
 D:\MamCo\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
 D:\MamCo\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
 D:\MamCo\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\ACER\OneDrive - Đại học FPT- FPT University\Desktop\MamCo\Git\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache

@@ -29,7 +29,7 @@ namespace MamCo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<mamcungappContext>(options =>
+            services.AddDbContext<foodappContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
             services.AddScoped<IFoodRepository, FoodRepository>();
             services.AddControllers();
